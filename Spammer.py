@@ -1,12 +1,12 @@
 import keyboard
 import time
-
+import strings 
 
 def klava_spam():
-    a = input("Enter the key to spam (if there are several, separate them with a + sign): ")
-    b = int(input("Enter the number of times to spam: "))
-    c = float(input("Enter the delay: "))
-    d = float(input("Enter the number of seconds before spam: "))
+    a = input(strings.key_for_spam)
+    b = int(input(strings.times_for_spam))
+    c = float(input(strings.delay))
+    d = float(input(strings.seconds_before_spam))
     time.sleep(d)
     for i in range(int(b)):
         keyboard.press_and_release(a)
@@ -14,11 +14,11 @@ def klava_spam():
         time.sleep(c)
 
 def both_spam():
-    a = input("Enter spam text: ")
-    e = input("Enter the key to spam (if there are several, separate them with a + sign): ")
-    b = int(input("Enter the number of times to spam: "))
-    c = float(input("Enter the delay: "))
-    d = float(input("Enter the number of seconds before spam: "))
+    a = input(strings.spam_text)
+    e = input(strings.key_for_spam)
+    b = int(input(strings.times_for_spam))
+    c = float(input(strings.delay))
+    d = float(input(strings.seconds_before_spam))
     time.sleep(d)
     for i in range(int(b)):
         keyboard.write(a)
@@ -26,10 +26,10 @@ def both_spam():
         time.sleep(c)
 
 def spam():
-    a = input("Enter spam text: ")
-    b = int(input("Enter the number of times to spam: "))
-    c = float(input("Enter the delay: "))
-    d = float(input("Enter the number of seconds before spam: "))
+    a = input(strings.spam_text)
+    b = int(input(strings.times_for_spam))
+    c = float(input(strings.delay))
+    d = float(input(strings.seconds_before_spam))
     time.sleep(d)
     for i in range(int(b)):
         keyboard.write(a)
