@@ -6,6 +6,6 @@ To do it go to [official python organisation web-page](https://www.python.org/do
 Open cmd and write:
 ```pip3 install keyboard```
 ## How to use?
-Open [Спамалка.py](https://github.com/BlackPymer/-/blob/main/%D0%A1%D0%BF%D0%B0%D0%BC%D0%B0%D0%BB%D0%BA%D0%B0.py) file.
+Open [Spammer.py](https://github.com/BlackPymer/Spammer/blob/main/Spammer.py) file.
 
    
