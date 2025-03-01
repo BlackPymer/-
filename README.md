@@ -23,6 +23,9 @@ This window will be opened:<br>
 
 ### Console mode
 Open [Spammer.py](https://github.com/BlackPymer/Spammer/blob/main/Spammer.py) file.
+You will see something like this:<br>
+![screenshot](https://github.com/BlackPymer/Spammer/blob/main/screenshots/screenshot1.png)<br>
+Write your parametres and press "enter" key after every entered value.
 
 ### Recommendations
 1. delay should be not less than 0.001
