@@ -50,7 +50,7 @@ keyEntry = Entry(root,font='Arial 15')
 waitLabel = Label(root,text=strings.seconds_before_spam,font='Arial 15')
 waitEntry = Entry(root,font='Arial 15')
 #button
-getInfoButton = Button(root,text = "Начать",command = Start)
+getInfoButton = Button(root,text = "Start",command = Start)
 
 
 
